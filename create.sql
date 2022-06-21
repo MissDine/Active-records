@@ -1,6 +1,1 @@
-CREATE TABLE users{
-    id INTERGER PRIMARY KEY,
-    fullname TEXT,
-    username TEXT,
-    age INTERGER
-    };
+CREATE TABLE Users(id INTEGER PRIMARY KEY AUTOINCREMENT, fullname TEXT, username TEXT, age INTEGER);

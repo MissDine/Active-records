@@ -1,4 +1,6 @@
 require "sqlite3"
 
-# Creating a connection/access to the database
-db = sqlite3::Database.new("db/database.db")
+# Establishing a connection to our database
+db = SQLite3::Database.new("db/data.db")
+# Getting ccess to our data
+puts db.execute("SELECT * FROM Users")
